@@ -1,0 +1,241 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --bgd-light-color: #f5f4fa;
+  --bgd-dark-color: #2f303a;
+  --logo-color: #000000;
+  --logo-invert: #ffffff;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
+/*header*/
+
+/*logo*/
+.logo {
+  color: var(--logo-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo-invert {
+  color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.contact-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--bgd-dark-color);
+}
+
+.logo-invert {
+  color: #ffffff;
+}
+
+.footer-contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer-contacts .link {
+  color: var(--footer-contacts-color);
+}
+
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.footer-contacts .address {
+  color: #ffffff;
+}
+
+/* Герой */
+.hero {
+  background-color: var(--bgd-dark-color);
+}
+
+.hero-title {
+  color: var(--primary-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  height: 120px;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-background-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/* Преимущества */
+.benefits .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits .text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся */
+.about-us .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Команда */
+.team {
+  background-color: var(--bgd-light-color);
+}
+
+.team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teammate {
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
+  background: var(--primary-background-color);
+}
+
+.teammate .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teammate .text {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Портфолио */
+.button-menu {
+  background-color: var(--bgd-light-color);
+  border-radius: 4px;
+  border-color: transparent;
+  color: var(--title-text-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button-menu:hover,
+.button-menu:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.portfolio-card {
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+}
+
+.portfolio-card .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-card .text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
