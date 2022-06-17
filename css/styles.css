@@ -33,7 +33,7 @@ body {
   color: var(--accent-color);
 }
 .logo-invert {
-  color: #ffffff;
+  color: var(--logo-invert);
 }
 
 .link {
@@ -82,10 +82,6 @@ body {
   background-color: var(--bgd-dark-color);
 }
 
-.logo-invert {
-  color: #ffffff;
-}
-
 .footer-contacts {
   font-style: normal;
   font-weight: 400;
@@ -104,7 +100,7 @@ body {
 }
 
 .footer-contacts .address {
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 
 /* Герой */
